@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-ZM">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Now</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="scriptpurple.js"></script>
+</head>
+<body>
+    <form method="post" autocomplete="on" onsubmit="return ValiDatE()">
+        <div class="complete-form">
+            <h3>Login Now</h3>
+            <label for="name">Username*</label>
+            <input type="text" class="text-input" id="name" placeholder="Enter your Username">
+            <p id="error-name" class="error-message"></p>
+
+            <label for="password">Password*</label>
+            <input type="password" class="text-input" id="password" placeholder="Enter your Password" maxlength="6">
+            <p id="error-password" class="error-message"></p>
+
+            <input type="checkbox" id="agree" class="input-checked"> Remember me
+            <p id="error-check" class="error-message"></p>
+
+            <input type="submit" class="btn" value="LOGIN">
+        </div>
+    </form>
+</body>
+</html>

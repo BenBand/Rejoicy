@@ -209,3 +209,57 @@ a{
     }
 }
 /* -------- Responsiveness for the counselling page -------- */
+
+/* -------- Footer -------- */
+footer {
+    padding: 25px;
+    background-color: #393E46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-logo > a {
+    color: #fff;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links > .links {
+    margin-right: 200px;
+}
+.footer-links > .links > ul > li {
+    list-style: none;
+    padding: 10px;
+}
+.footer-links > .links > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links > .topics > ul {
+    margin-top: 10px;
+}
+.footer-links > .topics > ul > li {
+    list-style: none;
+    padding: 10px;
+}
+.footer-links > .topics > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rights-C {
+    padding: 8px;
+    background-color: #000;
+}
+.rights-C > p {
+    color: #fff;
+}
+/* -------- Footer -------- */

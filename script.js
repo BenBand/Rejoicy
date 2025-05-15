@@ -1,15 +1,12 @@
 function ValiDatE(){
     const name = document.getElementById("name").value;
     const password = document.getElementById("password").value;
-    const Agree = document.getElementById("agree").checked;
 
     const ErrorName = document.getElementById("error-name");
     const ErrorPaSSword = document.getElementById("error-password");
-    const ErrorChecked = document.getElementById("error-check");
 
     ErrorName.textContent = "";
     ErrorPaSSword.textContent = "";
-    ErrorChecked.textContent = "";
 
     let isValid = "";
 
@@ -47,8 +44,8 @@ function ValiDatE(){
 
 
     // Validation and error handling for the agree section
-    if(!Agree){
+   /*  if(!Agree){
         ErrorChecked.textContent = "Please agree to the above condition";
     }
-    return isValid;
+    return isValid; */
 }
